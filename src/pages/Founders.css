@@ -1,0 +1,13 @@
+.founders-container{
+    
+    width: 100%;
+    text-align: center;
+    
+}
+.founders-grid{
+    
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}

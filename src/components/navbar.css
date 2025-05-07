@@ -1,0 +1,107 @@
+.active {
+    background-color: rgb(255, 255, 255);
+    color: #1d4ed8;           
+    font-weight: bold;         
+    border-radius: 0.5rem;    
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05);    
+    transition: all 0.3s ease; 
+  }
+  
+  .navbar-main {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right,rgb(135, 253, 135), #e3f5e3);
+    padding: 0.75rem 1rem;
+    color: black;
+  }
+  
+  .nav-bar-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    font-weight: bold;
+  }
+  
+  .menu-bar {
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2rem;
+    height: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .menu-bar span {
+    background-color: rgb(0, 0, 0);
+    height: 0.2rem;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .nav-bar-links ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-bar-links ul li a {
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: black;
+  }
+  
+  .nav-bar-links ul li a:not(.active):hover {
+    background-color: #e5f9e3;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .menu-bar {
+      display: flex;
+    }
+    .nav-bar-links{
+      width: 100%;
+    }
+    .nav-bar-links ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background: linear-gradient(to right,rgb(135, 253, 135), #e3f5e3);
+    }
+  
+    .nav-bar-links ul.open {
+      display: flex;
+    }
+  
+    .nav-bar-links ul li {
+      width: 100%;
+      text-align: left;
+    }
+  
+    .nav-bar-links ul li a {
+      display: block;
+      padding: 0.75rem 1rem;
+      width: 100%;
+    }
+  }
+  
