@@ -5,7 +5,7 @@ import Founders from "./Founders";
 import Maps from "./maps";
 import GoogleReviewsWidget from "google-reviews-widget";
 import { fadeIn } from "../assets/variants";
-import wallpaper from "../assets/wallpaper.jpg";
+
 import Footer from "../components/footer";
 import Features from "../components/features";
 const Home = () => {

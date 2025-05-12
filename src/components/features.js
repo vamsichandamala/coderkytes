@@ -11,7 +11,7 @@ export default function Features() {
       <div className="features-list">
         <div className="feature-item">
           <div className="image-section">
-            <img src={img1} style={{width:"400px"}}/>
+            <img src={img1} alt="" style={{width:"400px"}}/>
           </div>
           <div className="text-section">
             <h2>Industry experts as your tutors</h2>
@@ -31,14 +31,14 @@ export default function Features() {
             </p>
           </div>
           <div className="image-section">
-            <img src={img2} style={{width:"400px"}}/>
+            <img src={img2} alt="" style={{width:"400px"}}/>
           </div>
         </div>
         </div>
         <div className="feature-item">
           <div className="feature-item">
           <div className="image-section">
-            <img src={img3} style={{width:"400px"}} />
+            <img src={img3} alt="" style={{width:"400px"}} />
           </div>
           <div className="text-section">
             <h2>Real-time projects & Mock interviews</h2>
@@ -58,7 +58,7 @@ export default function Features() {
             </p>
           </div>
            <div className="image-section">
-            <img src={img4} style={{width:"400px"}}/>
+            <img src={img4} alt="" style={{width:"400px"}}/>
           </div>
         </div>
         </div>
