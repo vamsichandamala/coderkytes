@@ -17,6 +17,7 @@ export default function CourseDetails() {
             <h1>{course.title}</h1>
             <p>{course.description}</p>
             <h2>Course Details</h2>
+            <p> Course details will disclosed soon...</p>
         </motion.div>
 
 

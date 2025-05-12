@@ -1,3 +1,14 @@
+
+.course-details{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.course-details img{
+   width: 50%;
+   height: 50%;
+}
 .course-details button{
    background-color:  blue;
    color: white;

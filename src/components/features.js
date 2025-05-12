@@ -7,11 +7,11 @@ import img4 from "../assets/feature-img-4.png";
 export default function Features() {
   return (
     <div className="features-container">
-      <h2 className="features-heading" style={{fontSize:"3rem"}}>Why to choose us ?</h2>
+      <h2 className="features-heading" >Why to choose us ?</h2>
       <div className="features-list">
         <div className="feature-item">
           <div className="image-section">
-            <img src={img1} alt="" style={{width:"400px"}}/>
+            <img src={img1} alt="" style={{width:"380px"}}/>
           </div>
           <div className="text-section">
             <h2>Industry experts as your tutors</h2>
@@ -31,14 +31,14 @@ export default function Features() {
             </p>
           </div>
           <div className="image-section">
-            <img src={img2} alt="" style={{width:"400px"}}/>
+            <img src={img2} alt="" style={{width:"380px"}}/>
           </div>
         </div>
         </div>
         <div className="feature-item">
           <div className="feature-item">
           <div className="image-section">
-            <img src={img3} alt="" style={{width:"400px"}} />
+            <img src={img3} alt="" style={{width:"380px"}} />
           </div>
           <div className="text-section">
             <h2>Real-time projects & Mock interviews</h2>
@@ -58,7 +58,7 @@ export default function Features() {
             </p>
           </div>
            <div className="image-section">
-            <img src={img4} alt="" style={{width:"400px"}}/>
+            <img src={img4} alt="" style={{width:"380px"}}/>
           </div>
         </div>
         </div>

@@ -63,7 +63,7 @@ const Home = () => {
           <i style={{ color: "skyblue" }} className="fa-solid fa-users"></i>
         </h2>
         <p style={{ color: "black" }}>
-          We value our users feedback and strive to improve our platform.
+          We value our users feedback and strive to improve our platfor.
         </p>
 
         <GoogleReviewsWidget instanceId="GXKRqRJRbJSkP1IKOF8j" />
