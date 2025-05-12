@@ -30,7 +30,7 @@ const persons_list = [
 const Founders=()=>{
     return(
 <div className="founders-container">
-    <h1 className='founders-title'style={{fontSize:"3rem"}} >Meet Our Team</h1>
+    <h1 className='founders-title' >Meet Our Team</h1>
     <div className='founders-grid'>
         {persons_list.map((person, index) => (
             <FounderCard key={index} name={person.name} title={person.title} image={person.image} />
