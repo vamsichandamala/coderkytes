@@ -1,23 +1,18 @@
+
+
+
 .home-container {
   
-  height: 100vh;
+  height: auto;
   background-image: url('../assets/bg_pic.jpg');
   background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
     background-attachment: fixed;
     flex-wrap: wrap;
+}
 
-  
-}
-.home-content{
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-    background-color: #8afe9211;
-    margin-left: 10rem;
-}
+
 .home-features{
   display: flex;
   flex-direction: row;
@@ -41,23 +36,13 @@ background-repeat: no-repeat;
   align-items: center;
 margin-top: 4rem;
 }
-.home-container h1 {
-  font-size: 4rem;
-  color: #333;
 
-}
-.home-container p {
-    text-align: center;
-  color: #666;
-  font-size: 1.5rem;
-
-}
 
 .home-container button{
     margin: 10px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: green;
+    background-color: blue;
     color: white;
     border: none;
     border-radius: 5px;
@@ -69,9 +54,138 @@ margin-top: 4rem;
  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(50, 52, 50);
+  background-color: rgb(255, 255, 255);
   
   margin: 2rem 4rem;
   border-radius: 16px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
+.home-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+ 
+
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.home-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.home-left h2 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.brand {
+  color: #0c5304bd;
+  
+}
+
+.home-left p {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+.get-started {
+  margin-top: 1.5rem;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started:hover {
+ background: linear-gradient(to right, #1fa205a8, #09a210);
+}
+
+.home-right {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+/* Container of the right section */
+.home-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+
+}
+
+/* Contact section styling */
+.contact-container {
+  background-color: #f9fafb1b;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+max-width: 1200px;
+  width: 100%;
+  backdrop-filter: blur(5px);
+}
+
+/* Heading style */
+.contact-heading {
+  font-size: 26px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 30px;
+}
+
+/* Button style */
+.contact-button {
+  display: block;
+  background: linear-gradient(to right, #1fa205a8, #09a210);
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 14px 24px;
+  border-radius: 10px;
+  margin: 12px auto;
+  width: 80%;
+  max-width: 320px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s, opacity 0.3s ease;
+}
+
+.contact-button:hover {
+  transform: translateY(-4px);
+  opacity: 0.9;
+}
+
+/* OR text */
+.contact-or {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 16px 0;
+}
+
+/* Responsive behavior */
+@media (max-width: 500px) {
+  .contact-container {
+    padding: 30px 20px;
+  }
+
+  .contact-heading {
+    font-size: 22px;
+  }
+
+  .contact-button {
+    font-size: 12px;
+  }
+}
+/* coderkytes brand effect */
