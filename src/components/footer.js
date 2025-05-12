@@ -13,20 +13,20 @@ const Footer = () => {
         </div>
 
         <div className="footer-section">
-  <h4>Company</h4>
-  <ul>
-    <li>
-      <button type="button" className="link-button">
-        Careers <span className="hiring-badge">We're hiring</span>
-      </button>
-    </li>
-    <li>
-      <button type="button" className="link-button">
-        Blog <span className="external-icon">↗</span>
-      </button>
-    </li>
-  </ul>
-</div>
+          <h4>Company</h4>
+          <ul>
+            <li>
+              <a href="#courses" role="button">
+                Careers <span className="hiring-badge">We're hiring</span>
+              </a>
+            </li>
+            <li>
+              <a href="#courses" role="button">
+                Blog <span className="external-icon">↗</span>
+              </a>
+            </li>
+          </ul>
+        </div>
 
         <div className="footer-section">
           <h4>Quick Links</h4>
