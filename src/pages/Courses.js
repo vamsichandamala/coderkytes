@@ -3,6 +3,12 @@ import CourseCard from "../components/coursecard";
 import python from "../assets/python_img.png";
 import java from "../assets/java.png";
 import mern from "../assets/mern.png";
+import sap from "../assets/sap.png";
+import salesforce from "../assets/salesforce.png";
+import dotnet from "../assets/dot_net.png";
+
+import clang from "../assets/c.png";
+import cplus from "../assets/c_plus.png";
 import "./courses.css";
 import { motion } from "framer-motion";
 import { fadeIn } from "../assets/variants";
@@ -26,34 +32,40 @@ const course = [
     image: mern,
   },
   {
-    title: "Java Full Stack Development",
+    title:" C language for Beginners",
     description:
-      "Build full-stack applications using Java, Spring Boot, and React.",
-    image: java,
+      "Learn C programming from scratch with hands-on projects.",
+    image: clang,
   },
   {
-    title: "Python Full Stack Development",
+    title: "C++ for Beginners",
     description:
-      "Build full-stack applications using Python, Django, and React.",
-    image: python,
+      "Learn C++ programming from scratch with hands-on projects.",
+    image: cplus,
   },
   {
-    title: "Python for Beginners",
-    description: "Learn Python from scratch with hands-on projects.",
-    image: python,
-  },
-  {
-    title: "Java Essentials",
-    description: "Master the fundamentals of Java with real-world exercises.",
-    image: java,
-  },
-  {
-    title: "Mern Stack Development",
+    title: "SAP FICO",
     description:
-      "Build full-stack applications using MongoDB, Express, React, and Node.js.",
-    image: mern,
+      "Learn SAP FICO from scratch with hands-on projects.",
+    image: sap,
+   
   },
   {
+    title: "Salesforce",
+    description:
+      "Learn Salesforce from scratch with hands-on projects.",
+    image: salesforce,
+
+  },
+  {
+    title: ".NET Development",
+    description:
+      "Learn .NET Development from scratch with hands-on projects.",
+    image: dotnet,
+   
+  },
+  {
+    
     title: "Java Full Stack Development",
     description:
       "Build full-stack applications using Java, Spring Boot, and React.",
